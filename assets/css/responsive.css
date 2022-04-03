@@ -1,0 +1,102 @@
+
+/* Mobie */
+@media (max-width:739px){
+
+    .c-flexcol{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .c-flexrercol {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    body {
+        margin: 0;
+    }
+
+
+    #slider .slider__downl-form {
+        top: 12px;
+        right: 0;
+        width: 100%;
+        border-radius: 0px;
+        
+    }
+
+
+    #slider .slider__downl-form .downl-info {
+        padding: 0px;
+    } 
+
+    .downl-form__header, .downl-form__body {
+        display: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .downl-form__btn {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+
+    .slider__btn {
+        border-radius: 0px;
+        top: 100%;
+        right: 0;
+    }
+
+    /* Clarity & App */
+    .intro {
+        padding-right: 0px;
+        padding-bottom: 32px;
+    }
+
+    .img {
+        text-align: center;
+    }
+
+    .img--size {
+        width: 100%;
+        height: auto;
+    }
+
+    .clarity__img {
+        margin-top: 0px;
+    }
+
+    /* Pricing */
+    .premium-col {
+        padding-top: 32px;
+    }
+
+    /* Modal */
+    .modal_content {
+        padding: 32px 16px 48px;
+        position: relative;
+    }
+
+    .modal_close {
+        position: absolute;
+        top: 12px;
+        right: 8px;
+    }
+}
+
+
+
+/* Table */
+@media (min-width:739px) and (max-width: 1023px) {
+    body {
+        margin: 0;
+    }
+
+    .clarity__img {
+        margin-right: 16px;
+    }
+}
+
